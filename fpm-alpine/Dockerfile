@@ -14,6 +14,7 @@ RUN set -ex; \
 		libzip-dev \
 		openldap-dev \
 		pcre-dev \
+		librdkafka-dev \
 	; \
 	\
 	docker-php-ext-configure gd --with-freetype --with-jpeg; \
